@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 1100px;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCC NEWS</title>
+    <style type="text/css">
+    #topbar{
+        width:1200px;
+        margin:0 auto; 
+        height:60px;
+       }
+    body{
+        margin:0;
+        padding:0;
+        
+
+    }
+    #logo{
+         margin-top:8px;
+         width: 100px;
+         float:left;
+         margin-right: 5px;
+    }
+    .topbar-section{
+        float: left;
+        border-left: 1px #cccccc solid;
+        height: 60px;
+        margin-top: 0px;
+    }
+    #signin-img{
+        width:25px;
+        margin: 20px 10px;
+        float:left;
+    }
+    #signin-text{
+        font-weight:bold;
+        font-size: 100%;
+        position: relative;
+        top: 22px;
+        margin-right: 50px;
+    }
+    .topbar-menu{
+        font-weight: bold;
+        font-size: 100%;
+        padding: 20px 15px 0 15px;
+        height: 40px;
+        height: 40px;
+    }
+    #searchbox{
+        background-color: #e4e4e4;
+        border:none;
+        font-weight: bold;
+        font-size:14px;
+        padding: 3px;
+        margin-top: 17px;
+        margin-right: 0px;
+        margin-left: 5px;
+        float: left;
+    }
+    #glass{
+        margin-top: 17px;
+    }
+    .class{
+        clear: both;
+    }
+    #menubar-container{
+        background-color: #bb1919;;
+        width: 100%;
+        height: 95px;
+    }
+    #menubar{
+        width:1200px;
+        margin:0 auto;
+        }
+    h1{
+        padding: 0;
+        margin: 0;
+        color: white;
+        font-size: 40px;
+        font-weight: normal;
+        padding-top: 10px;
+    }
+    #menubar-container2{
+        background-color: #a91717;
+        width: 100%;
+        height: 39px;
+    }
+    #menubar2{
+        width:1200px;
+        margin:0 auto;
+    }
+    #menubar2 a{
+        color: white;
+        text-decoration:none;
+        padding: 0 10px;
+        border-right: 1px solid #bb4545;
+        font-size: 17px;
+        position: relative;
+        top: 7px;
+    }
+    #menubar2 a:hover{
+        text-decoration: underline;
+    }
+    .noborder{
+        border: none! important;
+    }
+    #page-container{
+        width:1200px;
+        margin:0 auto;
+        height: 1000px;
+        }
+    h2{
+        font-weight: normal;
+        font-size: 20px;
+        border-bottom:1px solid #bb4545;
+        width: 98px;
+    }
+    h3 a{
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    h3 a:hover{
+        color: #1167a8;
+    }
+    #main-container h2{
+            width: 200px;
+            }
+    .covid{
+        width: 500px;
+    }
+    p{
+        font-size: 20px;
+        width: 500px;
+    }
+    #article{
+        width: 300px;
+    }
+    #article img{
+        height: 16px;
+    }
+    #article a{
+        text-decoration:none;
+        color:black;
+        font-size: 15px;
+        position:relative;
+        bottom: 3px;
+        margin-left: 2px;
+       }
+    #e{
+        position: relative;
+        left: 550px;
+        bottom: 450px;
+        width: 200px;
+    }
+    #f{
+        position:relative;
+        left: 550px;
+        width: 200px;
+        bottom: 470px;
+    }
+    #Aa{
+        width: 200px;
+        position: relative;
+        left: 550px;
+        bottom:485px;
+    }
+    #f:hover{
+        text-decoration: underline;
+    }
+    #clock{
+        width: 80px;
+        position: relative;
+        left: 550px;
+        bottom:570px;
+    }
+    #vaccine{
+        position: relative;
+        left: 725px;
+        bottom: 736px;
+        width: 200px;
+    }
+    #H{
+        position:relative;
+        left: 807px;
+        width: 200px;
+        bottom: 755px;
+    }
+    #H:hover{
+        text-decoration: underline;
+    }
+    #bb{
+        width: 200px;
+        position: relative;
+        left: 805px;
+        bottom:760px;
+    }
+    #time{
+        width: 130px;
+        position: relative;
+        left: 800px;
+        bottom:840px;
+    }
+    #vaccine2{
+        position: relative;
+        left: 935px;
+        bottom: 1003px;
+        width: 200px;
+    }
+    #i{
+        position: relative;
+        left:1070px;
+        bottom:1020px;
+        width: 200px;
+    }
+    #i:hover{
+        text-decoration: underline;
+    }
+    #cc{
+        width: 200px;
+        position: relative;
+        left: 1070px;
+        bottom:1030px;
+    }
+    .time1{
+        width: 80px;
+        position: relative;
+        left: 1070px;
+        bottom:1110px;
+    }
+    #vaccine3{
+        position: relative;
+        left: 465px;
+        bottom: 950px;
+        width: 200px;
+    }
+    #j{
+        position: relative;
+        left: 545px;
+        bottom: 960px;
+        width: 225px;
+    }
+    #j:hover{
+        text-decoration: underline;
+    }
+    #dd{
+        position: relative;
+        left: 545px;
+        bottom: 970px;
+        width: 225px;
+    }
+    .time2{
+        position: relative;
+        left: 545px;
+        bottom: 1050px;
+        width: 90px;
+    }
+    #student{
+        position: relative;
+        left: 710px;
+        bottom: 1200px;
+        width: 200px;
+    }
+    #k{
+        position: relative;
+        left: 800px;
+        bottom: 1215px;
+        width: 200px;
+    }
+    #k:hover{
+        text-decoration: underline;
+    }
+    #ee{
+        position: relative;
+        left: 800px;
+        bottom: 1230px;
+        width: 200px;
+    }
+    .time3{
+        position: relative;
+        left: 800px;
+        bottom: 1315px;
+        width: 80px;
+    }
+    #covid19{
+        position: relative;
+        left: 980px;
+        bottom: 1470px;
+        width: 200px;
+    }
+    #l{
+       position: relative;
+       left:1060px;
+       bottom:1480px;
+       width:200px;
+    }
+    #l:hover{
+        text-decoration: underline;
+    }
+    #ff{
+        float: right;
+        width: 200px;
+        position:relative;
+        left: 60px;
+        bottom:1500px;
+    }
+    .time{
+        float:right;
+        position: relative;
+        bottom:1420px;
+        left: 220px;
+        width: 160px;
+    }
+    .gg{
+        position: relative;
+        bottom: 1340px;
+    }
+    .line{
+        position:relative;
+        left: 200px;
+        bottom: 20px;
+        font-weight: bold;
+    }
+    #vaccine4{
+        position: relative;
+        bottom:1340px;
+        width: 200px;
+    }
+    #m{
+        width: 200px;
+        position: relative;
+        bottom: 1350px;
+    }
+    #m:hover{
+        text-decoration: underline;
+    }
+    #lockdown{
+        position: relative;
+        left: 250px;
+        bottom:1535px;
+        width: 200px;
+    }
+    #n{
+        width: 200px;
+        position: relative;
+        left:250px;
+        bottom: 1540px;
+    }
+    #n:hover{
+        text-decoration: underline;
+    }
+    #covidsymptoms{
+        position: relative;
+        left: 500px;
+        bottom:1730px;
+        width: 200px;
+    }
+    #o{
+        width: 200px;
+        position: relative;
+        left:500px;
+        bottom: 1740px;
+    }
+    #o:hover{
+        text-decoration: underline;
+    }
+    #vaccinework{
+        position: relative;
+        left: 750px;
+        bottom:1930px;
+        width: 200px;
+    }
+    #p{
+        width: 200px;
+        position: relative;
+        left:750px;
+        bottom: 1940px;
+    }
+    #p:hover{
+        text-decoration: underline;
+    }
+    #infection{
+        position: relative;
+        left: 1000px;
+        bottom:2130px;
+        width: 200px;
+    }
+    #q{
+        width: 200px;
+        position: relative;
+        left:1000px;
+        bottom: 2140px;
+    }
+    #q:hover{
+        text-decoration: underline;
+    }
+    .r{
+        position: relative;
+        bottom: 2100px;
+    }
+    #s{
+        position: relative;
+        left: 550px;
+        bottom: 2080px;
+        padding: 10px;
+        font-weight: bold;
+    }
+    </style>
+<body>
+<div id="bbcwebsite">
+    <div id="topbar">
+         <img id="logo" src="BBC-Logo.png">         
+         <div id="signin-div" class="topbar-section">
+             <img id="signin-img" src="signinlogo.png"> <span id="signin-text" > Sign in</span>
+         </div>
+         <div class="topbar-section topbar-menu">
+            News
+         </div>
+         <div class="topbar-section topbar-menu">
+                 Sports
+         </div>
+         <div class="topbar-section topbar-menu">
+                 Reel
+         </div>
+         <div class="topbar-section topbar-menu">
+            Travel
+         </div>
+         <div class="topbar-section topbar-menu">
+            Future
+        </div>
+        <div class="topbar-section topbar-menu">
+            worklife
+        </div>
+        <div class="topbar-section topbar-menu">
+            culture
+        </div>
+        <div class="topbar-section topbar-menu">
+            more
+            <img src="arrow.png">
+        </div>
+        <div class="topbar-section">
+            <input id="searchbox" type="search" value="Search">
+            <input type="image" id=glass src="magnifyingglass.png">
+        </div>
+    </div>
+    <div class="clear"></div>
+        <div id="menubar-container">
+        <div id="menubar">
+          <H1>NEWS</H1>
+        </div>
+        <div id="menubar-container2">
+        <div id="menubar2">
+            <a href="">HOME</a>
+            <a href="">Coronavirus</a>
+            <a href="">Climate</a>
+            <a href="">Video</a>
+            <a href="">World</a>
+            <a href="">Asia</a>
+            <a href="">UK</a>
+            <a href="">Buisness</a>
+            <a href="">Tech</a>
+            <a href="">Science</a>
+            <a href="">Entertainment & Arts</a>
+            <a href="">Health</a>
+            <a href="">World news TV</a>
+            <a href="" class="noborder">More <img src="arrow.png"></a>
+        </div>        
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="page-container">
+        <div id="main-container" style="height: 1000px;">
+            <h2>Coronavirus pandemic</h2>
+            <iframe class="covid" width="560" height="315" src="https://www.youtube.com/embed/Fn5SWFnC7nA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a class="gs-c-promo-heading gs-o-faux-block-link__overlay-link gel-paragon-bold gs-u-mt+ nw-o-link-split__anchor" href="/news/world-us-canada-59201107"><h3 class="gs-c-promo-heading__title gel-paragon-bold gs-u-mt+ nw-o-link-split__text">Joyful reunions in US as 20-month travel ban ends</h3></a>
+            <div id="article">
+               <p>There are tears,hugs and balloons galore as the first international visitors arrive in US airports.</p>
+               <p><img src="timer.png"><a href="">|US&CANADA</a></p>    
+            </div>
+            <img id="e" src="c19.png">
+            <h4 id="f">Who cast doubt on Turkmenistan's zero covid claim</h4>
+            <div id="Aa">
+                The World Health Organisation official tells the BBC it is "unlikely the virus is not circulating".
+            </div>
+            <img id="clock" src="clock.png" alt="">
+            <img id="vaccine" src="vaccine.png" alt="">
+            <h4 id="H" >Costa Rica makes Covid jab mandatory for Children </h4>
+            <div id="bb">
+                The Country becomes the first in the world to mandate vaccination for those aged five to 11.
+            </div>
+            <img id=time src="4d.png" alt="error">
+            <img id="vaccine2" src="vaccine2.png" alt="error">
+            <h4 id="i" >High-risk covid gene more common in South Asians</h4>
+            <div id="cc">About 90% of people from South Asian backgrounds carry a gene that put them at higher risk.</div>
+            <img class="time1" src="5d.png" alt="error">
+            <img id="vaccine3" src="vaccine3.png" alt="error">
+            <h4 id="j">Europe once agian at epicenter of Covid,WHO warns</h4>
+            <div id="dd">The WHO warns of 500000 more death in Europe by February as cases soar across the continent.</div>
+            <img class="time2" src="5de.png" alt="">
+            <img id="student" src="student.png" alt="error">
+            <h4 id="k">Covid delay's student journey from slum to Sydney</h4>
+            <div id="ee">Tushar Joshi's dreams of studying in Australia on a scholarship have been upended by Covid-19.</div>
+            <img class="time3" src="5di.png" alt="error">
+            <img id="covid19" src="covid19.png" alt="error">
+            <h4 id="l">Covid death pass five million world wide</h4>
+            <div id="ff">Vaccines have slowed the death rate,but officially warn of worrying rises in some countries.</div>\
+            <img class="time" src="time.png" alt="error">
+            <h3 class="gg">Advice and Support <span class="line"><hr></span></h3>
+            <img id="vaccine4" src="vaccine4.png" alt="error">
+            <h4 id="m">What is happening with the EU vaccine rollout</h4>
+            <img id="lockdown" src="lockdown.png" alt="error">
+            <h4 id="n">Are some US states ending lockdown too soon?</h4>
+            <img id="covidsymptoms" src="covidsymptoms.png" alt="error">
+            <h4 id="o">Covid symptoms:Is it a cold or coronavirus? </h4>
+            <img id="vaccinework" src="vaccincework.png" alt="error">
+            <h4 id="p">The vacccines that work-and the others on the way</h4>
+            <img id="infection" src="infection.png" alt="error">
+            <h4 id="q">Why are infections raising again in US?</h4>
+            <span class="r"><hr></span>
+            <input id="s" type="button" value="Read more>">
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
